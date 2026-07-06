@@ -1,6 +1,7 @@
-# Your Mistral DevOps Teacher
+# Your 𝐅𝐑𝐄𝐍𝐂𝐇 Mistral DevOps Teacher 🇫🇷
 
-Config prête à l'emploi pour [Mistral Vibe](https://mistral.ai/products/vibe/code/) : un `AGENTS.md` (règles + style compressé) et 11 skills DevOps / dev, installables en une commande.
+[BETA VERSION]
+    Config prête à l'emploi pour [Mistral Vibe](https://mistral.ai/products/vibe/code/) : un `AGENTS.md` (règles + style compressé) et 11 skills DevOps / dev, installables en une commande.
 
 ## Installation
 
@@ -41,8 +42,9 @@ Sur un nouveau repo, lance `/init` une fois : il détecte la stack, lit les skil
 
 ## À savoir sur Vibe
 
-Vibe ne déclenche pas les skills automatiquement sur mots-clés : ils se chargent via `/nom`, ou parce que la table de routage dans `AGENTS.md` dit au modèle de lire le bon `SKILL.md` avant d'agir. C'est un rappel permanent, pas une garantie stricte : si tu veux être sûr, invoque le skill à la main.
+Vibe peux ne pas déclencher les skills automatiquement sur mots-clés : ils se chargent via `/nom`, ou parce que la table de routage dans `AGENTS.md` dit au modèle de lire le bon `SKILL.md` avant d'agir. C'est un rappel permanent, pas une garantie stricte : si tu veux être sûr, invoque le skill à la main.
 
 ## Mise à jour
 
 Re-run `bash install.sh` après un `git pull`. L'ancien `AGENTS.md` est sauvegardé à chaque fois.
+
