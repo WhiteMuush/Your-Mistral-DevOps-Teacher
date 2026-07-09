@@ -48,7 +48,7 @@ Sur un nouveau repo, lance `/init` une fois : il détecte la stack, lit les skil
 
 `AGENTS.md` seul ne suffit pas : Vibe l'encadre d'un avertissement "peut être pertinent ou non" et le modèle dérive sur les sessions longues. Le system prompt est un canal plus fort.
 
-`vibe/prompts/cli-caveman.md` = le prompt intégré de Vibe (copié tel quel, version 2.19.0) + 4 sections ajoutées à la fin :
+`vibe/prompts/cli-caveman.md` = le prompt intégré de Vibe (copié tel quel, version 2.19.1) + 4 sections ajoutées à la fin :
 
 1. **Style compressé** : réponses courtes, jamais recopier un fichier lu, règles de lisibilité (une idée par ligne, gras, listes)
 2. **Skills obligatoires** : lire le `SKILL.md` du domaine avant d'agir, même si le prompt donne déjà la structure. Le skill fait autorité sur les connaissances d'entraînement
@@ -67,3 +67,6 @@ Vibe peux ne pas déclencher les skills automatiquement sur mots-clés : ils se 
 
 Re-run `bash install.sh` après un `git pull`. L'ancien `AGENTS.md` est sauvegardé à chaque fois.
 
+## Licence
+
+Apache-2.0 (voir `LICENSE`). Le fichier `vibe/prompts/cli-caveman.md` contient le prompt intégré de Mistral Vibe (Apache-2.0, Copyright Mistral AI), voir `NOTICE`.

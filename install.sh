@@ -25,7 +25,7 @@ cp -r "$SRC/skills/." "$VIBE_HOME/skills/"
 echo "Skills installes :"
 find "$SRC/skills" -maxdepth 1 -mindepth 1 -type d -exec basename {} \; | sort | sed 's/^/  - /'
 
-# System prompt custom (base : prompt integre de Vibe 2.19.0 + regles style/skills/git)
+# System prompt custom (base : prompt integre de Vibe 2.19.1 + regles style/skills/git)
 cp "$SRC/prompts/cli-caveman.md" "$VIBE_HOME/prompts/cli-caveman.md"
 echo "System prompt cli-caveman installe."
 
