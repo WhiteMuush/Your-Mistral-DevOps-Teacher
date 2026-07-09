@@ -3,6 +3,8 @@
 [BETA VERSION]
     Config prête à l'emploi pour [Mistral Vibe](https://mistral.ai/products/vibe/code/) : un `AGENTS.md` (règles + style compressé), 11 skills DevOps / dev, et un system prompt custom qui force la lecture des skills, le git systématique et les réponses courtes. Installable en une commande.
 
+> 📖 **[Le wiki](https://github.com/WhiteMuush/Your-Mistral-DevOps-Teacher/wiki)** explique comment tout ça est construit et pourquoi : architecture des 3 couches, le system prompt en détail, les problèmes réels rencontrés et leurs diagnostics.
+
 ## Installation
 
 ```bash
